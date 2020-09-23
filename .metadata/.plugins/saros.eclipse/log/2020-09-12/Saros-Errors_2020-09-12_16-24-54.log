@@ -1,7 +1,0 @@
-ERROR 16:24:54,898 [saros-sound] (SoundPlayer.java:59) could not access sound system
-java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
-	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
-	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
-	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
-	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
-	at java.base/java.lang.Thread.run(Thread.java:834)

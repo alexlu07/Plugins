@@ -1,8 +1,0 @@
-Saros.resource_selection.checked.-Last\ selection-=/ExplosiveWand**\#**
-Saros.resource_selection.preset_names=-Last selection-**\#**
-eclipse.preferences.version=1
-favorite.session.color.id=0
-resource.mapping.storage.jk1452@saros-con.imp.fu-berlin.de=GrapplingHook\:GrapplingHook
-saros.coloridsets=<list>\n  <colorIDSet>\n    <assignedUserColorIDs>\n      <entry>\n        <string>jk1452@saros-con.imp.fu-berlin.de</string>\n        <saros.editor.colorstorage.UserColorID>\n          <current>1</current>\n          <favorite>0</favorite>\n        </saros.editor.colorstorage.UserColorID>\n      </entry>\n      <entry>\n        <string>alexlu07@saros-con.imp.fu-berlin.de</string>\n        <saros.editor.colorstorage.UserColorID>\n          <current>0</current>\n          <favorite>0</favorite>\n        </saros.editor.colorstorage.UserColorID>\n      </entry>\n    </assignedUserColorIDs>\n    <timestamp>1600814838935</timestamp>\n  </colorIDSet>\n  <colorIDSet>\n    <assignedUserColorIDs>\n      <entry>\n        <string>alexlu07@saros-con.imp.fu-berlin.de</string>\n        <saros.editor.colorstorage.UserColorID>\n          <current>0</current>\n          <favorite>0</favorite>\n        </saros.editor.colorstorage.UserColorID>\n      </entry>\n    </assignedUserColorIDs>\n    <timestamp>1600862613573</timestamp>\n  </colorIDSet>\n</list>
-ui.sarosview.sashweight.left=500
-ui.sarosview.sashweight.right=500

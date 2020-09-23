@@ -1,7 +1,0 @@
-package me.misleaded.test.events;
-
-import org.bukkit.event.Listener;
-
-public class TestEvents implements Listener {
-
-}

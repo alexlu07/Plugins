@@ -1,5 +1,15 @@
 package me.misleaded.amongUs;
 
-public class amongUs {
+import org.bukkit.plugin.java.JavaPlugin;
 
+public class amongUs extends JavaPlugin {
+	@Override
+	public void onEnable() {
+		
+	}
+	
+	@Override
+	public void onDisable() {
+		
+	}
 }
