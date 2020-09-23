@@ -1,0 +1,5 @@
+name: Test
+version: 1.0
+author: misleaded
+main: com.technovision.tutorial.Tutorial
+api-version: 1.16

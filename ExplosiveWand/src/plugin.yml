@@ -1,0 +1,9 @@
+name: ExplosiveWand
+version: 1.0
+author: [_muaddib, misleaded]
+main: plugin.explosiveWand.ExplosiveWand
+api-version: 1.16
+commands:
+  explosivewand:
+    description: gives player Explosive Wand
+    usage: /<command>

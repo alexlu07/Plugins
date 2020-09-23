@@ -1,0 +1,23 @@
+INFO  16:22:57,832 [saros-sound] (SoundPlayer.java:59) Starting Saros 16.0.1 running:
+  Java Version: 11.0.7
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.18.0.v20200506-2143
+  Operating System: Linux (5.4.0-45-generic)
+  Hardware Architecture: amd64
+INFO  16:22:57,951 [saros-sound] (SoundPlayer.java:59) initializing context...
+INFO  16:22:59,482 [saros-sound] (SoundPlayer.java:59) initializing preference default values
+INFO  16:22:59,592 [saros-sound] (SoundPlayer.java:59) successfully initialized context
+ERROR 16:24:54,898 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  16:25:05,966 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from jk1452@saros-con.imp.fu-berlin.de/Saros [negotiation id: 1917126205757854066, session id: 420778389, version: 16.0.1]
+INFO  16:25:09,856 [ModalContext] (SarosSessionManager.java:288) joined uninitialized Saros session
+INFO  16:25:09,858 [ModalContext] (DataTransferManager.java:269) establishing connection to jk1452@saros-con.imp.fu-berlin.de/Saros from alexlu07@saros-con.imp.fu-berlin.de/Saros using stream service XMPP-Socks5-Stream-Service
+DEBUG 16:25:19,583 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_420778389@conference.saros-con.imp.fu-berlin.de/jk1452@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 16:25:19,697 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_420778389@conference.saros-con.imp.fu-berlin.de/alexlu07@saros-con.imp.fu-berlin.de/Saros with state: active
+INFO  16:25:19,989 [saros-DispatchContext] (NegotiationPacketListener.java:310) received project negotiation from jk1452@saros-con.imp.fu-berlin.de/Saros with negotiation id: 937769759381393112
+INFO  16:25:35,962 [saros-DispatchContext] (SarosSession.java:389) user jk1452@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities

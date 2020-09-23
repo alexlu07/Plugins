@@ -1,0 +1,39 @@
+ERROR 09:58:05,478 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 10:19:59,942 [saros-client-network-watchdog] (ClientSessionTimeoutHandler.java:77) no ping received, reached timeout = 300000
+ERROR 12:33:50,894 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 12:33:54,825 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+WARN  12:34:34,111 [Worker-19: Session Startup] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification
+ERROR 12:34:57,372 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 12:34:59,763 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+WARN  12:35:35,233 [Smack Listener Processor (0)] (SubscriptionHandler.java:128) received error presence package from saros_1289542198@conference.saros-con.imp.fu-berlin.de/alexlu07@saros-con.imp.fu-berlin.de/Saros, condition: item-not-found, message: Conference room does not exist
+WARN  12:36:03,154 [Worker-20: Session Startup] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification

@@ -1,0 +1,10 @@
+name: DoubleJump
+version: 1.0
+author: misleaded
+main: me.misleaded.doubleJump.DoubleJump
+api-version: 1.16
+commands:
+  doublejumpboots:
+    description: gives player double jump boots
+    usage: /<command>
+    aliases: jumpboots

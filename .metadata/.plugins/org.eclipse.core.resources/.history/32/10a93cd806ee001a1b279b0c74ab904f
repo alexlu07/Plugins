@@ -1,0 +1,5 @@
+name: Test
+version: 1.0
+author: misleaded
+main: me.misleaded.test.Test
+api-version: 1.16

@@ -1,0 +1,9 @@
+name: GrapplingHook
+version: 1.0
+author: _muaddib+misleaded
+main: plugin.grapplingHook.GrapplingHook
+api-version: 1.16
+commands:
+  grapplinghook:
+    description: gives player grappling hook
+    usage: /<command>

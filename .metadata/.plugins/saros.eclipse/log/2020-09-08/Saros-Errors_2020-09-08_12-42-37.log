@@ -1,0 +1,153 @@
+WARN  12:42:37,353 [main] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification
+ERROR 14:06:29,185 [saros-server-network-watchdog] (ServerSessionTimeoutHandler.java:118) no pong received from user jk1452@saros-con.imp.fu-berlin.de/Saros, reached timeout = 300000
+ERROR 14:06:32,984 [saros-StopSession] (SarosSessionManager.java:776) error in notifying listener of session end: 
+java.lang.NullPointerException
+	at saros.ui.actions.FollowThisPersonAction$1.sessionEnded(FollowThisPersonAction.java:55)
+	at saros.session.SarosSessionManager.sessionEnded(SarosSessionManager.java:774)
+	at saros.session.SarosSessionManager.stopSession(SarosSessionManager.java:345)
+	at saros.ui.util.CollaborationUtils$2.run(CollaborationUtils.java:163)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 14:06:32,986 [saros-StopSession] (SarosSessionManager.java:776) error in notifying listener of session end: 
+java.lang.NullPointerException
+	at saros.ui.actions.FollowModeAction$3.sessionEnded(FollowModeAction.java:118)
+	at saros.session.SarosSessionManager.sessionEnded(SarosSessionManager.java:774)
+	at saros.session.SarosSessionManager.stopSession(SarosSessionManager.java:345)
+	at saros.ui.util.CollaborationUtils$2.run(CollaborationUtils.java:163)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+WARN  20:51:32,014 [Worker-36: Session Startup] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification
+ERROR 20:52:32,071 [Worker-35: Inviting jonas (jk1452@saros-con.imp.fu-berlin.de)...] (Negotiation.java:438) canceled negotiation OSN [remote side: jk1452@saros-con.imp.fu-berlin.de/Saros], error: Received no negotiation acknowledgement from jk1452@saros-con.imp.fu-berlin.de/Saros.
+WARN  20:55:51,539 [Worker-35: Session Startup] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification
+ERROR 20:56:47,229 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 20:56:51,682 [Worker-35: Inviting jonas (jk1452@saros-con.imp.fu-berlin.de)...] (Negotiation.java:438) canceled negotiation OSN [remote side: jk1452@saros-con.imp.fu-berlin.de/Saros], error: Received no negotiation acknowledgement from jk1452@saros-con.imp.fu-berlin.de/Saros.
+WARN  20:56:55,920 [Smack Listener Processor (0)] (SubscriptionHandler.java:128) received error presence package from saros_430228405@conference.saros-con.imp.fu-berlin.de/alexlu07@saros-con.imp.fu-berlin.de/Saros, condition: item-not-found, message: Conference room does not exist
+ERROR 20:57:20,071 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 20:57:34,438 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 20:58:03,396 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 20:58:16,305 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 21:00:09,807 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 21:01:11,427 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 21:45:21,117 [Smack Packet Reader (0)] (XMPPConnectionService.java:104) XMPP connection error: 
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:269)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:264)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1306)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:832)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.base/java.io.BufferedReader.read(BufferedReader.java:287)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:312)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+	Suppressed: java.net.SocketException: Broken pipe (Write failed)
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:81)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:357)
+		... 18 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1096)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:816)
+	... 14 more
+ERROR 21:45:21,118 [Smack Packet Reader (0)] (XMPPConnectionService.java:386)  new connection state == ERROR
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:269)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:264)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1306)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:832)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.base/java.io.BufferedReader.read(BufferedReader.java:287)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:312)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+	Suppressed: java.net.SocketException: Broken pipe (Write failed)
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:81)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:357)
+		... 18 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1096)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:816)
+	... 14 more
+ERROR 21:45:21,234 [saros-sound] (SoundPlayer.java:59) could not access sound system
+java.lang.IllegalArgumentException: No line matching interface SourceDataLine supporting format PCM_SIGNED 11025.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian is supported.
+	at java.desktop/javax.sound.sampled.AudioSystem.getLine(AudioSystem.java:425)
+	at saros.misc.sound.SoundPlayer.playSound(SoundPlayer.java:52)
+	at saros.ui.sounds.SoundPlayer$1.run(SoundPlayer.java:40)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:834)

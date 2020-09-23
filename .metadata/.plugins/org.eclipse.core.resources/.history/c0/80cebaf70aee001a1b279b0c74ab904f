@@ -1,0 +1,14 @@
+name: Test
+version: 1.0
+author: misleaded
+main: me.misleaded.test.Test
+api-version: 1.16
+commands:
+  heal:
+    description: Heals player to max health.
+    usage: /<command>
+    aliases: health
+  feed:
+    description: Feeds player to max saturation.
+    usage: /<command>
+    aliases: food

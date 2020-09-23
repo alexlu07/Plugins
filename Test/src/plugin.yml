@@ -1,0 +1,10 @@
+name: Test
+version: 1.0
+author: misleaded
+main: me.misleaded.test.Test
+api-version: 1.16
+commands:
+  output:
+    description: returns output of player.method
+    usage: /<command> ...
+    aliases: test

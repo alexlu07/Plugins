@@ -1,0 +1,10 @@
+name: ForceWand
+version: 1.0
+author: [_muaddib, misleaded]
+main: me.misleaded.forceWand.ForceWand
+api-version: 1.16
+commands:
+  forcewand:
+    description: gives player Force Wand
+    usage: /<command>
+    aliases: magicwand

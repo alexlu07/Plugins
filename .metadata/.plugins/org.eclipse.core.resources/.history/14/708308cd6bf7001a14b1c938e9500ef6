@@ -1,0 +1,5 @@
+package plugin.explosiveWand.customEntities;
+
+public class NoHitboxFallingSand {
+
+}

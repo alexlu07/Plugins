@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/home/alexlu/Documents/Alex/Programming/Plugins/.metadata/.plugins/org.eclipse.jdt.core
+1622828259.index
+4088711454.index
+1738572765.index
+964498395.index
+1893496838.index
+3703194086.index
+2597363778.index

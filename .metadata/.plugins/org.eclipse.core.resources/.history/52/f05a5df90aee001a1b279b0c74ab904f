@@ -1,0 +1,24 @@
+package me.misleaded.test;
+
+import org.bukkit.ChatColor;
+import org.bukkit.plugin.java.JavaPlugin;
+import me.misleaded.test.events.TestEvents;
+import me.misleaded.test.commands.TestCommands;
+
+public class Test extends JavaPlugin {
+	
+	@Override
+	public void onEnable() {
+		getServer().getPluginManager().registerEvents(new TestEvents(), this);
+		TestCommands commands = new TestCommands();
+		getCommand("heal").setExecutor(commands);
+		getCommand("feed").setExecutor(commands);
+		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin is enabled");
+	}
+	
+	@Override
+	public void onDisable() { 
+		
+	}
+	
+}

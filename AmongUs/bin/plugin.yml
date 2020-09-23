@@ -1,0 +1,5 @@
+name: AmongUs
+version: 1.0
+author: [misleaded, _muaddib]
+main: me.misleaded.amongUs.amongUs
+api-version: 1.16
