@@ -1,21 +1,15 @@
-// Alex Lu
 package plugin.explosiveWand.events;
 
-import java.lang.reflect.Field;
 import java.util.List;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.block.data.BlockData;
-import org.bukkit.craftbukkit.v1_16_R2.CraftWorld;
 import org.bukkit.entity.Entity;
-import org.bukkit.entity.EntityType;
 import org.bukkit.entity.FallingBlock;
 import org.bukkit.entity.Fireball;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Projectile;
-import org.bukkit.entity.Zombie;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
@@ -25,27 +19,21 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
 
-import net.minecraft.server.v1_16_R2.Blocks;
-import net.minecraft.server.v1_16_R2.EntityFallingBlock;
-import net.minecraft.server.v1_16_R2.WorldServer;
-import plugin.explosiveWand.customEntities.CustomFallingBlock;
-import plugin.explosiveWand.customEntities.CustomZombie;
 import plugin.explosiveWand.items.Wand;
 
 public class Events implements Listener {
 	
 	@EventHandler
-	public void onRightClick(PlayerInteractEvent e) {
-		
+	public void onRightClick(PlayerInteractEvent e) throws NullPointerException {
+				
 		Player p = e.getPlayer();
 		Location loc = p.getLocation();
-		float yaw = p.getLocation().getYaw();
 		
 		Action action = e.getAction();
 		ItemStack item = p.getInventory().getItemInMainHand();
 		
 		if (action.equals(Action.RIGHT_CLICK_AIR) || action.equals(Action.RIGHT_CLICK_BLOCK)) {
-			if (item.getItemMeta().getLore().equals(Wand.wand.getItemMeta().getLore())) {
+			if (item.equals(Wand.wand)) {
 
 				Location projLocation = loc.clone().add(0.0, 1.1, 0.0);
 				projLocation.add(loc.getDirection());

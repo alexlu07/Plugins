@@ -1,5 +1,9 @@
 name: AmongUs
 version: 1.0
 author: [misleaded, _muaddib]
-main: me.misleaded.amongUs.amongUs
+main: me.misleaded.amongUs.AmongUs
 api-version: 1.16
+commands:
+  genMap:
+    description: generates the map
+    usage: /<command>

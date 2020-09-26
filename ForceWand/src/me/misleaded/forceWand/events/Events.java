@@ -19,18 +19,18 @@ import me.misleaded.forceWand.util.Rectangle;
 public class Events implements Listener{
 	
 	@EventHandler
-	public void onRightClick(PlayerInteractEvent e) {
+	public void onRightClick(PlayerInteractEvent e) throws NullPointerException {
 		
 		Player p = e.getPlayer();
 		Location loc = p.getLocation();
+		
 		Float yaw = loc.getYaw();
 		Action action = e.getAction();
 		ItemStack item = p.getInventory().getItemInMainHand();
-		
-		
+	
 		if (action.equals(Action.RIGHT_CLICK_AIR) || action.equals(Action.RIGHT_CLICK_BLOCK)) {
 			
-			if (item.getItemMeta().getLore().equals(Wand.wand.getItemMeta().getLore())) {
+			if (item.equals(Wand.wand)) {
 				
 //				p.sendMessage("Holding Wand");
 				double length = 6.0;

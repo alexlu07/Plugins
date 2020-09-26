@@ -16,32 +16,7 @@ public class CustomFallingBlock extends EntityFallingBlock{
 	public CustomFallingBlock(Location loc, Block b) {
 		super(EntityTypes.FALLING_BLOCK, ((CraftWorld) loc.getWorld()).getHandle());
 		
-		this.setPosition(loc.getX(), loc.getY(), loc.getZ());
-//		this.removeHitbox();
-		
-		Field blockData = accessField("block", EntityFallingBlock.class);
-//		setField(blockData, b.getBlockData());		
-		
-//		try {
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//
-//			System.out.println(this.getClass().getDeclaredField("block"));
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//			System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-//
-//		} catch (NoSuchFieldException | SecurityException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//			System.out.println("bbbbbbb");
-//			System.out.println("bbbbbbb");
-//			System.out.println("bbbbbbb");
-//
-//		}
-		
+		this.setPosition(loc.getX(), loc.getY(), loc.getZ());		
 		
 		
 	}

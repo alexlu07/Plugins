@@ -6,12 +6,9 @@ import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_16_R2.CraftWorld;
 
 import net.minecraft.server.v1_16_R2.AxisAlignedBB;
-import net.minecraft.server.v1_16_R2.Block;
 import net.minecraft.server.v1_16_R2.Entity;
-import net.minecraft.server.v1_16_R2.EntityFallingBlock;
 import net.minecraft.server.v1_16_R2.EntityTypes;
 import net.minecraft.server.v1_16_R2.EntityZombie;
-import net.minecraft.server.v1_16_R2.World;
 
 public class CustomZombie extends EntityZombie {
 
