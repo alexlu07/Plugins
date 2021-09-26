@@ -1,0 +1,5 @@
+name: ChatColor
+version: 1.0
+author: [_muaddib, misleaded, pandaguy360]
+main: me.misleaded.chatColor.ChatColor
+api-version: 1.15

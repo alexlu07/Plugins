@@ -1,0 +1,10 @@
+name: TabList
+version: 1.0
+author: [_muaddib, misleaded, pandaguy360]
+main: me.misleaded.tabList.TabList
+api-version: 1.15
+commands:
+  setEventNumber:
+    description: sets the event number
+    usage: /<command> <eventNumber>
+    aliases: setEvent

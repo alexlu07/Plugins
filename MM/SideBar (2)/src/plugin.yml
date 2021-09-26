@@ -1,0 +1,12 @@
+name: SideBar
+version: 1.0
+author: [pandaguy360, Fedaykin, misleaded]
+main: me.misleaded.sideBar.SideBar
+api-version: 1.15
+commands:
+  activateSidebar:
+    description: Sets Custom Scoreboard to be Shown on Sidebar
+    usage: /<command>
+  deactivateSidebar:
+    description: Sets Custom Scoreboard to not be Shown on Sidebar
+    usage: /<command>

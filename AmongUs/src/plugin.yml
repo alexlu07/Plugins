@@ -7,3 +7,15 @@ commands:
   genMap:
     description: generates the map
     usage: /<command>
+  join:
+    description: joins queue
+    usage: /<command>
+  leave:
+    description: leaves queue
+    usage: /<command>
+  create:
+    description: creates new queue
+    usage: /<command>   
+  forcestart:
+    description: forcestarts queue
+    usage: /<command>

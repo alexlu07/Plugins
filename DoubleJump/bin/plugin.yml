@@ -2,7 +2,7 @@ name: DoubleJump
 version: 1.0
 author: misleaded
 main: me.misleaded.doubleJump.DoubleJump
-api-version: 1.16
+api-version: 1.15
 commands:
   doublejumpboots:
     description: gives player double jump boots
